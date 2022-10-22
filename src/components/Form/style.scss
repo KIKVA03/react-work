@@ -1,0 +1,64 @@
+#body {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    .wrapper {
+        display: flex;
+        gap: 20px;
+        padding: 0 20px;
+        #form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 15%;
+            .title-wrapper {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                input {
+                    font-size: 20px;
+                }
+            }
+            .description-wrapper {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                textarea {
+                    resize: none;
+                    font-size: 15px;
+                }
+            }
+            .button-wrapper {
+                button {
+                    background-color: rgb(70, 147, 235);
+                    color: white;
+                    padding: 5px 10px;
+                    border: 0;
+                    border-radius: 5px;
+                }
+            }
+        }
+        .tasks-wrapper {
+            display: flex;
+            gap: 10px;
+            width: 85%;
+            flex-wrap: wrap;
+            .tasks-container {
+                border: 1px solid black;
+                background-color: aqua;
+                padding: 5px 15px;
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+            .button {
+                padding: 5px 10px;
+                border: none;
+                border-radius: 5px;
+            }
+        }
+    }
+}

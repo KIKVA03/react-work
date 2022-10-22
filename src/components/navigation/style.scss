@@ -1,0 +1,26 @@
+div {
+    background-color: lightblue;
+    header {
+        text-align: center;
+    }
+    ul {
+        margin: 5px 0 0 0;
+        display: flex;
+        justify-content: space-evenly;
+
+        li {
+            list-style: none;
+            button {
+                color: white;
+                padding: 8px 15px;
+                border: 0;
+            }
+            .button1 {
+                background-color: rgb(3, 68, 245);
+            }
+            .button2 {
+                color: black;
+            }
+        }
+    }
+}
